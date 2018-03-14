@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ademo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="ademo.war">
+      <element id="artifact" artifact-name="ademo:war exploded" />
+    </root>
+  </artifact>
+</component>
