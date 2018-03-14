@@ -6,4 +6,5 @@ package com.myssm.ssm.controller;
 public class UserController {
     String username="张三";
     String sex="男";
+    int age=39;
 }
