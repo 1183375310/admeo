@@ -14,6 +14,10 @@ public class Jurisdiction {
      * 权限名称
      */
     String jurisdictionName;
+    /**
+     * 访问地址
+     */
+    String accessAddress;
 
     public String getId() {
         return id;
@@ -29,5 +33,13 @@ public class Jurisdiction {
 
     public void setJurisdictionName(String jurisdictionName) {
         this.jurisdictionName = jurisdictionName;
+    }
+
+    public String getAccessAddress() {
+        return accessAddress;
+    }
+
+    public void setAccessAddress(String accessAddress) {
+        this.accessAddress = accessAddress;
     }
 }
